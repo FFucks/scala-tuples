@@ -16,6 +16,7 @@ object Triple {
         ("Bernardo", 10)
     )
 
+
     for ((name, age) <- persons) {
         println(s"$name have $age years old")
     }
